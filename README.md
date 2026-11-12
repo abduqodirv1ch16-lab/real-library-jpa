@@ -71,7 +71,7 @@ Make sure you have installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/abduqodirv1ch16-lab/Real_Librar_jpa.git
+git clone https://github.com/abduqodirv1ch16-lab/real-library-jpa.git
 ```
 
 ### 2. Configure PostgreSQL
