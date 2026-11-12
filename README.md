@@ -29,4 +29,114 @@ The project demonstrates practical knowledge of Java backend development, ORM, r
 
 - **Book Management** — Create, view, update, and delete books.
 - **Database Integration** — Persistent data storage using PostgreSQL.
-- **ORM** — Entity mapping and database operations with Hibernate and
+- **ORM** — Entity mapping and database operations with Hibernate and JPA.
+- **Connection Pooling** — Efficient database connection management with HikariCP.
+- **Server-side Web Application** — HTTP request processing using Jakarta Servlets and JSP.
+
+---
+
+## 🏗️ Project Architecture
+
+The application follows a layered backend structure to separate business logic, data access, and presentation responsibilities.
+
+```text
+Real_Library_JPA/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── ...
+│   │   ├── resources/
+│   │   └── webapp/
+│   │
+│   └── test/
+│
+├── pom.xml
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- JDK 17 or later
+- Maven
+- PostgreSQL
+- A compatible Jakarta EE Servlet container
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/abduqodirv1ch16-lab/Real_Librar_jpa.git
+```
+
+### 2. Configure PostgreSQL
+
+Create a database:
+
+```sql
+CREATE DATABASE real_library;
+```
+
+Configure your database connection according to the project's Hibernate and HikariCP configuration.
+
+Update the database URL, username, and password in the appropriate configuration file.
+
+**Security note:** Never commit real database passwords or credentials to GitHub.
+
+### 3. Build the project
+
+```bash
+mvn clean package
+```
+
+### 4. Run the application
+
+Deploy the generated WAR artifact to a compatible Jakarta EE servlet container and access the application through your local server.
+
+---
+
+## 🧪 Testing
+
+The project uses JUnit 5 for testing.
+
+Run tests using:
+
+```bash
+mvn test
+```
+
+---
+
+## 🎯 Learning Objectives
+
+This project demonstrates practical experience with:
+
+- Java backend development
+- Jakarta Servlet API
+- Java Persistence API (JPA)
+- Hibernate ORM
+- PostgreSQL database integration
+- Connection pooling
+- Maven project management
+- Unit testing
+
+---
+
+## 👨‍💻 Author
+
+**Abdurauf Boribekov**
+
+Java Backend Developer
+
+- GitHub: [@abduqodirv1ch16-lab](https://github.com/abduqodirv1ch16-lab)
+- LinkedIn: [Abdurauf Boribekov](https://www.linkedin.com/in/abdurauf-boribekov-552011443)
+- Telegram: [@abukuii](https://t.me/abukuii)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository and its implementation.
